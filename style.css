@@ -1,58 +1,87 @@
 @font-face {
-    font-family: 'AnotherTag';
-    src: local('aanothertag.ttf'), url('aAnotherTag.ttf') format('truetype');
+  font-family: 'AnotherTag';
+  src: local('aanothertag.ttf'), url('aAnotherTag.ttf') format('truetype');
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0;
 }
 
 body {
-    background-color: rgb(0, 0, 0);
-    padding-left: 25%;
-    padding-right: 25%;
+  background-color: rgb(0, 0, 0);
+  margin: 25px;
+}
+
+.website-container {
+  height: 100%;
+  width: auto;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .top-banner {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  margin-top: 30px;
+	margin-bottom: 50px;
+  height: 100px;
+  background-color: black;
 }
 
-.top-container {
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center; 
-    width: 100%;
+.page-title {
+  font-family: 'AnotherTag';
+  font-size: 75px;
 }
 
-.name {
-    font-family: 'AnotherTag', sans-serif;
-    font-size: 80px;
-    color: yellow;
+.options-menu {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
-.image-logo {
-    height: 150px;
-    margin-left: 35px;
+.grid-item {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+	margin-right: 30px;
 }
 
-.image-logo,
-.name {
-    display: inline-block;
+.catalan-logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100px;
+  margin-right: 50%;
 }
 
-.contact-button{
-    height: 50px;
-    width: 175px;
-    border: 2px solid yellow;
-    background-color: transparent;
-    color: yellow;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 25px;
+.home-box {
+  display: flex;
+  height: 650px;
+  width: auto;
 
 }
 
-.media-icon {
-    height: 25px;
-    
+.home-image {
+  height: 650px;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.home-text {
+  font-family: 'Anton', sans-serif;
+  font-size: 90px; font-weight: bold;
+	margin-top: 100px;
+	line-height: 100px;
+}
+
+.home-description {
+	width: 300px;
+	font-size: 20px;
+}
+
+.gallery {
+	height: 500px; width: 935px;
+	background-color: green;
 }
