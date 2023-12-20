@@ -23,7 +23,9 @@ footer {
   margin-top: 30px;
 	margin-bottom: 30px;
   height: 100px;
-  background-color: black;
+  width: 100%;
+  background-color: rgb(197, 0, 0);
+  text-align: right;
 }
 
 .options-menu {
@@ -37,12 +39,13 @@ footer {
   font-weight: bold;
 	margin-right: 30px;
   cursor: pointer;
+  
 }
 
 .catalan-logo {
   display: inline-block;
   height: 100px;
-  margin-right: 730px;
+ 
 }
 
 .home-box {
@@ -120,3 +123,5 @@ footer {
 .map{
   margin-left: -100px;
 }
+
+
