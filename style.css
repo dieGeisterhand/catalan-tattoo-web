@@ -141,7 +141,8 @@ div.gallery
   ; width: var(--gallery-width)
   ; height: var(--gallery-height)
   ; flex-direction: column
-  ; padding: var(--gallery-padding)
+  ; padding-top: var(--gallery-padding)
+  ; padding-bottom: var(--gallery-padding)
   ; box-sizing: border-box
     }
 
