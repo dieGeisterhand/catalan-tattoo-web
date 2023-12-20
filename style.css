@@ -81,11 +81,6 @@ footer {
   margin-left: 170px;
 }
 
-.gallery {
-	height: 800px; width: 1200px;
-	background-color: green;
-}
-
 .home-description-button{
   margin-top: 120px;
   width: 350px;
@@ -126,3 +121,56 @@ footer {
   margin-left: -100px;
 }
 
+/*---------------*/
+/* Gallery style */
+/*---------------*/
+
+/* Constants */
+:root
+  { --gallery-width: 1200px
+  ; --gallery-height: 800px
+  ; --gallery-padding: 5px
+  ; --gallery-thumbnail-height: 100px
+  ; --gallery-main-display-height:
+      calc(var(--gallery-height) - 3 * var(--gallery-padding) - var(--gallery-thumbnail-height));
+    }
+
+/* Flex container with main display and thumbnails */
+div.gallery
+  { display: flex
+  ; width: var(--gallery-width)
+  ; height: var(--gallery-height)
+  ; flex-direction: column
+  ; padding: var(--gallery-padding)
+  ; box-sizing: border-box
+    }
+
+/* The main gallery display */
+div.gallery-display
+  { margin-bottom: var(--gallery-padding)
+  ; height: var(--gallery-main-display-height)
+  ; width: 100%
+  ; text-align: center
+    }
+
+/* Image from the gallery */
+img.gallery-image
+  { max-width: 100%
+  ; max-height: 100%
+    }
+
+/* Flex container for thumbnails */
+#thumbnails
+  { height: var(--gallery-thumbnail-height)
+  ; display: flex
+  ; flex-direction: row
+  ; justify-content: flex-start
+  ; width: 100%
+  ; gap: 3px
+  ; overflow-x: auto
+    }
+
+/* Thumbnail image */
+img.thumbnail
+  { cursor: pointer
+    }
