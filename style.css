@@ -102,23 +102,21 @@ footer {
 
 .location {
   font-family: 'Anton', sans-serif;
-  font-size: 70px; font-weight: bold;
+  font-size: 80px; font-weight: bold;
   margin-bottom: 20px;
-  margin-top: 25px;
-  margin-left: 65px;
+  margin-top: 110px;
+  margin-left: -100px;
+  transform: rotate(-90deg);
 }
 
-.location-text {
-	width: 320px;
-	font-size: 20px;
-  margin-right: 75px;
-  margin-left: 25px;
-
-}
 
 .face{
   height: 125px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.map{
+  margin-left: -100px;
 }
