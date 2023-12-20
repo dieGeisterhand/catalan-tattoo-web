@@ -103,9 +103,9 @@ footer {
 .location {
   font-family: 'Anton', sans-serif;
   font-size: 70px; font-weight: bold;
-  text-align: center;
   margin-bottom: 20px;
   margin-top: 25px;
+  margin-left: 65px;
 }
 
 .location-text {
