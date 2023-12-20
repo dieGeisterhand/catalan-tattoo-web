@@ -23,7 +23,9 @@ footer {
   margin-top: 30px;
 	margin-bottom: 30px;
   height: 100px;
-  background-color: black;
+  width: 100%;
+  background-color: rgb(197, 0, 0);
+  text-align: right;
 }
 
 .options-menu {
@@ -37,12 +39,13 @@ footer {
   font-weight: bold;
 	margin-right: 30px;
   cursor: pointer;
+  
 }
 
 .catalan-logo {
   display: inline-block;
   height: 100px;
-  margin-right: 730px;
+ 
 }
 
 .home-box {
@@ -97,25 +100,23 @@ footer {
 
 .location {
   font-family: 'Anton', sans-serif;
-  font-size: 70px; font-weight: bold;
-  text-align: center;
+  font-size: 80px; font-weight: bold;
   margin-bottom: 20px;
-  margin-top: 25px;
+  margin-top: 110px;
+  margin-left: -100px;
+  transform: rotate(-90deg);
 }
 
-.location-text {
-	width: 320px;
-	font-size: 20px;
-  margin-right: 75px;
-  margin-left: 25px;
-
-}
 
 .face{
   height: 125px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.map{
+  margin-left: -100px;
 }
 
 /*---------------*/
