@@ -14,10 +14,9 @@ footer {
 }
 
 .website-container {
-  height: 100%;
-  width: auto;
-  margin-left: 25%;
-  margin-right: 25%;
+  max-width: 1000px; 
+  width: 100%; 
+  margin: 0 auto; 
 }
 
 .top-banner {
@@ -25,11 +24,6 @@ footer {
 	margin-bottom: 30px;
   height: 100px;
   background-color: black;
-}
-
-.page-title {
-  font-family: 'AnotherTag';
-  font-size: 75px;
 }
 
 .options-menu {
@@ -47,7 +41,7 @@ footer {
 .catalan-logo {
   display: inline-block;
   height: 100px;
-  margin-right: 50%;
+  margin-right: 730px;
 }
 
 .home-box {
@@ -71,7 +65,7 @@ footer {
 .home-text {
   font-family: 'Anton', sans-serif;
   font-size: 90px; font-weight: bold;
-	margin-top: 80px;
+	margin-top: 125px;
   margin-bottom: 10px;
 	line-height: 100px;
 }
@@ -79,10 +73,12 @@ footer {
 .home-description {
 	width: 320px;
 	font-size: 20px;
+  text-align: right;
+  margin-left: 300px;
 }
 
 .gallery {
-	height: 800px; width: 935px;
+	height: 800px; width: 1200px;
 	background-color: green;
 }
 
