@@ -1,11 +1,11 @@
 
 // Populate array with images
 const image_arr =
-  [ "1.webp"
-  , "2.webp"
-  , "3.webp"
-  , "4.webp"
-  , "5.webp"
+  [ "assets/1.webp"
+  , "assets/2.webp"
+  , "assets/3.webp"
+  , "assets/4.webp"
+  , "assets/5.webp"
     ];
 const image_count = image_arr.length;
 
