@@ -24,6 +24,7 @@ body {
 
 footer {
   margin-top: 35px;
+  text-align: center;
 }
 
 
@@ -137,7 +138,6 @@ footer {
 }
 
 .catalan-logo {
-  display: inline-block;
   height: 100px;
 }
 
@@ -151,7 +151,7 @@ footer {
 :root
   { --gallery-width: 1200px
   ; --gallery-height: 800px
-  ; --gallery-top-padding: 5px
+  ; --gallery-padding: 5px
   ; --gallery-thumbnail-height: 100px
   ; --gallery-main-display-height:
       calc(var(--gallery-height) - 3 * var(--gallery-padding) - var(--gallery-thumbnail-height));
