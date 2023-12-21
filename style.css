@@ -159,7 +159,7 @@ footer {
 :root
   { --gallery-width: 1200px
   ; --gallery-height: 800px
-  ; --gallery-padding: 5px
+  ; --gallery-padding: 0px
   ; --gallery-thumbnail-height: 100px
   ; --gallery-main-display-height:
       calc(var(--gallery-height) - 3 * var(--gallery-padding) - var(--gallery-thumbnail-height));
