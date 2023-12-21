@@ -26,6 +26,7 @@ footer {
   margin-top: 35px;
 }
 
+
 .website-container {
   max-width: 1200px; 
   width: 100%; 
@@ -51,13 +52,6 @@ footer {
   font-weight: bold;
 	margin-right: 30px;
   cursor: pointer;
-  
-}
-
-.catalan-logo {
-  display: inline-block;
-  height: 100px;
- 
 }
 
 .title-container {
@@ -65,7 +59,6 @@ footer {
   width: auto;
   margin-top: 35px;
   margin-bottom: 35px;
-
 }
 
 .home-image {
@@ -76,6 +69,11 @@ footer {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+}
+
+.top-menu{
+  text-align: center;
+  font-weight: bold;
 }
 
 .title {
@@ -90,27 +88,22 @@ footer {
 .reserve-button{
   margin-top: 50px;
   padding: 25px;
-
   background-color: white;
-
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px; font-weight: bold;
   color: rgb(0, 0, 0);
-
   text-align: center;
-
   user-select: none;
   cursor: pointer;
 }
 
-.home-description-button:hover{
+.reserve-button:hover{
   background-color: rgb(253, 214, 21)
 }
 
-.home-description-button:active{
+.reserve-button:active{
   background-color: white;
 }
-
 
 .location-text {
   font-family: 'Anton', sans-serif;
@@ -119,18 +112,6 @@ footer {
   margin-top: 110px;
   margin-left: -100px;
   transform: rotate(-90deg);
-}
-
-.top-menu{
-  text-align: center;
-  font-weight: bold;
-}
-
-.face{
-  height: 125px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .map{
@@ -153,6 +134,11 @@ footer {
   margin-top: 35px;
   margin-bottom: 35px;
 
+}
+
+.catalan-logo {
+  display: inline-block;
+  height: 100px;
 }
 
 
