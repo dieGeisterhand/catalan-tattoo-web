@@ -150,7 +150,8 @@ footer {
 /* Constants */
 :root
   { --gallery-width: 1200px
-  ; --gallery-height: 800px
+  ; --gallery-height: 825px
+  ; --gallery-padding: 5px
   ; --gallery-thumbnail-height: 100px
   ; --gallery-main-display-height:
       calc(var(--gallery-height) - 3 * var(--gallery-padding) - var(--gallery-thumbnail-height));
