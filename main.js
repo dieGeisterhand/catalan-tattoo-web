@@ -6,6 +6,8 @@ const image_arr =
   , "assets/3.webp"
   , "assets/4.webp"
   , "assets/5.webp"
+  , "assets/6.webp"
+  , "assets/7.webp"
     ];
 const image_count = image_arr.length;
 
