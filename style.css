@@ -4,6 +4,20 @@ p {
   margin: 0;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color: rgb(253, 214, 21);
+}
+
+a:active{
+  color: white;
+}
+
 body {
   background-color: rgb(0, 0, 0);
   margin: 25px;
@@ -97,6 +111,10 @@ footer {
   background-color: rgb(253, 214, 21)
 }
 
+.home-description-button:active{
+  background-color: white;
+}
+
 
 .location {
   font-family: 'Anton', sans-serif;
@@ -132,9 +150,6 @@ footer {
   cursor: pointer;
 }
 
-.inline-text:hover{
-  color: rgb(253, 214, 21);
-}
 
 /*---------------*/
 /* Gallery style */
