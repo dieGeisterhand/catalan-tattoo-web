@@ -67,10 +67,11 @@ footer {
 
 .home-text {
   font-family: 'Anton', sans-serif;
-  font-size: 90px; font-weight: bold;
+  font-size: 175px; font-weight: bold;
 	margin-top: 75px;
   margin-bottom: 10px;
-	line-height: 100px;
+	line-height: 175px;
+  text-align: right;
 }
 
 .home-description {
@@ -81,7 +82,7 @@ footer {
 }
 
 .home-description-button{
-  margin-top: 120px;
+  margin-top: 50px;
   padding: 25px;
   user-select: none;
   background-color: white;
@@ -92,7 +93,7 @@ footer {
   cursor: pointer;
 }
 
-.home-description-button:active{
+.home-description-button:hover{
   background-color: rgb(253, 214, 21)
 }
 
@@ -108,6 +109,7 @@ footer {
 
 .top-menu{
   text-align: center;
+  font-weight: bold;
 }
 
 .face{
