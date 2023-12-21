@@ -9,7 +9,6 @@ a{
   text-decoration: none;
 }
 
-
 a:hover{
   color: rgb(253, 214, 21);
 }
@@ -61,7 +60,7 @@ footer {
  
 }
 
-.home-box {
+.title-container {
   display: flex;
   width: auto;
   margin-top: 35px;
@@ -73,13 +72,13 @@ footer {
   height: 650px;
 }
 
-.test {
+.item-box {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
 }
 
-.home-text {
+.title {
   font-family: 'Anton', sans-serif;
   font-size: 175px; font-weight: bold;
 	margin-top: 50px;
@@ -88,14 +87,7 @@ footer {
   text-align: right;
 }
 
-.home-description {
-	width: 450px;
-	font-size: 25px;
-  text-align: right;
-  margin-left: 170px;
-}
-
-.home-description-button{
+.reserve-button{
   margin-top: 50px;
   padding: 25px;
 
@@ -120,7 +112,7 @@ footer {
 }
 
 
-.location {
+.location-text {
   font-family: 'Anton', sans-serif;
   font-size: 80px; font-weight: bold;
   margin-bottom: 20px;
@@ -145,7 +137,6 @@ footer {
   margin-left: -100px;
 }
 
-
 .menu-option{
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
@@ -155,6 +146,15 @@ footer {
   margin-top: 50px;
   cursor: pointer;
 }
+
+.location-container {
+  display: flex;
+  width: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+
+}
+
 
 
 /*---------------*/
@@ -203,7 +203,7 @@ img.gallery-image
   ; flex-direction: row
   ; justify-content: flex-start
   ; width: 100%
-  ; gap: 3px
+  ; gap: 11px
   ; overflow-x: auto
     }
 
