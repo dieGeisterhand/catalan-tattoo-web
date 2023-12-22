@@ -69,6 +69,7 @@ footer {
 }
 
 .top-menu{
+  display: inline-block;
   text-align: center;
   font-weight: bold;
 }
@@ -147,9 +148,6 @@ footer {
 }
 
 
-
-
-
 /*---------------*/
 /* Gallery style */
 /*---------------*/
@@ -205,5 +203,14 @@ img.thumbnail
   { cursor: pointer
     }
 
+/* Media query for phone screens */
+@media only screen and (max-width: 600px) {
+  div.gallery,
+  .location-container {
+    display: none;
+  }
 
-    
+  .home-image{
+    display: none;
+  }
+}
