@@ -130,6 +130,10 @@ footer {
   height: 100px;
 }
 
+.signature {
+  color: black;
+}
+
 
 /*CONTACT PAGE STYLES*/
 
@@ -203,14 +207,3 @@ img.thumbnail
   { cursor: pointer
     }
 
-/* Media query for phone screens */
-@media only screen and (max-width: 600px) {
-  div.gallery,
-  .location-container {
-    display: none;
-  }
-
-  .home-image{
-    display: none;
-  }
-}
