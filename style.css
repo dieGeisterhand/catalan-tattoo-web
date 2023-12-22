@@ -19,7 +19,6 @@ a:active{
 
 body {
   background-color: rgb(0, 0, 0);
-  margin: 25px;
 }
 
 footer {
@@ -27,9 +26,8 @@ footer {
   text-align: center;
 }
 
-
 .website-container {
-  max-width: 1200px; 
+  max-width: 1500px; 
   width: 100%; 
   margin: 0 auto; 
 }
@@ -40,11 +38,6 @@ footer {
   height: 100px;
   width: 100%;
   text-align: center;
-}
-
-.options-menu {
-  display: grid;
-  grid-template-columns: auto auto auto;
 }
 
 .grid-item {
@@ -63,7 +56,7 @@ footer {
 }
 
 .home-image {
-  height: 650px;
+  height: 875px;
 }
 
 .item-box {
@@ -79,21 +72,23 @@ footer {
 
 .title {
   font-family: 'Anton', sans-serif;
-  font-size: 175px; font-weight: bold;
+  font-size: 220px; font-weight: bold;
 	margin-top: 50px;
   margin-bottom: 10px;
-	line-height: 175px;
+	line-height: 250px;
   text-align: right;
 }
 
 .reserve-button{
-  margin-top: 50px;
+  margin-top: 25px;
   padding: 25px;
+  height: 162px;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px; font-weight: bold;
+  font-size: 130px; font-weight: bold;
   color: rgb(0, 0, 0);
   text-align: center;
+  vertical-align: middle;
   user-select: none;
   cursor: pointer;
 }
@@ -106,18 +101,6 @@ footer {
   background-color: white;
 }
 
-.location-text {
-  font-family: 'Anton', sans-serif;
-  font-size: 80px; font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 110px;
-  margin-left: -100px;
-  transform: rotate(-90deg);
-}
-
-.map{
-  margin-left: -100px;
-}
 
 .menu-option{
   font-family: Arial, Helvetica, sans-serif;
@@ -129,74 +112,3 @@ footer {
   cursor: pointer;
 }
 
-.location-container {
-  display: flex;
-  width: auto;
-  margin-top: 35px;
-  margin-bottom: 35px;
-
-}
-
-.catalan-logo {
-  height: 100px;
-}
-
-
-
-/*---------------*/
-/* Gallery style */
-/*---------------*/
-
-/* Constants */
-:root
-  { --gallery-width: 1200px
-  ; --gallery-height: 825px
-  ; --gallery-padding: 5px
-  ; --gallery-thumbnail-height: 100px
-  ; --gallery-main-display-height:
-      calc(var(--gallery-height) - 3 * var(--gallery-padding) - var(--gallery-thumbnail-height));
-    }
-
-/* Flex container with main display and thumbnails */
-div.gallery
-  { display: flex
-  ; width: var(--gallery-width)
-  ; height: var(--gallery-height)
-  ; flex-direction: column
-  ; padding-top: var(--gallery-padding)
-  ; padding-bottom: var(--gallery-padding)
-  ; box-sizing: border-box
-    }
-
-/* The main gallery display */
-div.gallery-display
-  { margin-bottom: var(--gallery-padding)
-  ; height: var(--gallery-main-display-height)
-  ; width: 100%
-  ; text-align: center
-    }
-
-/* Image from the gallery */
-img.gallery-image
-  { max-width: 100%
-  ; max-height: 100%
-    }
-
-/* Flex container for thumbnails */
-#thumbnails
-  { height: var(--gallery-thumbnail-height)
-  ; display: flex
-  ; flex-direction: row
-  ; justify-content: flex-start
-  ; width: 100%
-  ; gap: 11px
-  ; overflow-x: auto
-    }
-
-/* Thumbnail image */
-img.thumbnail
-  { cursor: pointer
-    }
-
-
-    
