@@ -20,6 +20,7 @@ a:active{
 body {
   background-color: rgb(0, 0, 0);
   margin: 25px;
+  margin-top: 100px;
 }
 
 footer {
@@ -52,6 +53,7 @@ footer {
 
 .home-image {
   height: 650px;
+  width: 523px;
 }
 
 .item-box {
