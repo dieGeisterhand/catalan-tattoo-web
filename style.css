@@ -35,6 +35,9 @@ footer {
   text-align: center;
 }
 
+.swag:hover{
+  color: rgb(253, 214, 21);
+}
 
 .website-container {
   max-width: 1200px; 
