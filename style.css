@@ -27,6 +27,7 @@ a:active{
 body {
   background-color: rgb(0, 0, 0);
   margin: 25px;
+  margin-top: 0px;
 }
 
 footer {
@@ -34,6 +35,9 @@ footer {
   text-align: center;
 }
 
+.swag:hover{
+  color: rgb(253, 214, 21);
+}
 
 .website-container {
   max-width: 1200px; 
@@ -53,7 +57,7 @@ footer {
 .title-container {
   display: flex;
   width: auto;
-  margin-top: 35px;
+;
   margin-bottom: 35px;
 }
 
@@ -130,6 +134,12 @@ footer {
   height: 100px;
 }
 
+.signature {
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 
 /*CONTACT PAGE STYLES*/
 
@@ -203,14 +213,3 @@ img.thumbnail
   { cursor: pointer
     }
 
-/* Media query for phone screens */
-@media only screen and (max-width: 600px) {
-  div.gallery,
-  .location-container {
-    display: none;
-  }
-
-  .home-image{
-    display: none;
-  }
-}
